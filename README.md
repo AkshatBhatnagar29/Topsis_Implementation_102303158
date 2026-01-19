@@ -5,7 +5,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/topsis-akshatbhatnagar-102303158.svg)](https://pypi.org/project/topsis-akshatbhatnagar-102303158/1.0.2/)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 A Python package to implement **TOPSIS** (Technique for Order of Preference by Similarity to Ideal Solution). This method is used for multi-criteria decision-making (MCDM).
 
