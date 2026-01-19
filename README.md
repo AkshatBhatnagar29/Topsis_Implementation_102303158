@@ -1,7 +1,7 @@
 # Topsis_Implementation_102303158
 
 ```markdown
-# TOPSIS-AkshatBhatnagar-102303158
+##TOPSIS-AkshatBhatnagar-102303158
 
 [![PyPI version](https://img.shields.io/pypi/v/topsis-akshatbhatnagar-102303158.svg)](https://pypi.org/project/topsis-akshatbhatnagar-102303158/1.0.2/)
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
@@ -111,6 +111,7 @@ The program will generate a new file `result.csv` with two additional columns: *
 ### 4. Result Graph
 
 Below is a graphical representation of the TOPSIS scores for the given example.
+<img width="1094" height="719" alt="image" src="https://github.com/user-attachments/assets/e25f3530-6e6c-4a03-910c-431d96d891f1" />
 
 
 ---
