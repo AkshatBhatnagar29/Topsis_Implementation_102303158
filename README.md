@@ -32,10 +32,10 @@ TOPSIS is based on the concept that the chosen alternative should have the short
 
 1. **Normalization:**
 The decision matrix is normalized to scale all criteria to a uniform dimension.
-![Normalization Formula](https://latex.codecogs.com/png.latex?\large&space;r_{ij}=\frac{x_{ij}}{\sqrt{\sum_{i=1}^{m}x_{ij}^2}})
+![Normalization Formula](https://latex.codecogs.com/png.latex?\color{white}r_{ij}=\frac{x_{ij}}{\sqrt{\sum_{i=1}^{m}x_{ij}^2}})
 2. **Weight Assignment:**
 The normalized matrix is multiplied by the weights assigned to each criterion.
-$$ v_{ij} = w_j \times r_{ij} $$
+![Weighted Formula](https://latex.codecogs.com/png.latex?\color{white}v_{ij}=w_j\times&space;r_{ij})
 3. **Ideal Solution Determination:**
 * **Ideal Best ():** Max value for beneficial attributes (+), Min value for non-beneficial attributes (-).
 * **Ideal Worst ():** Min value for beneficial attributes (+), Max value for non-beneficial attributes (-).
@@ -45,7 +45,7 @@ $$ v_{ij} = w_j \times r_{ij} $$
 Euclidean distance is calculated for each alternative from the Ideal Best () and Ideal Worst ().
 5. **Score Calculation:**
 The similarity score is calculated as:
-$$ P_i = \frac{S_i^-}{S_i^+ + S_i^-} $$
+![Score Formula](https://latex.codecogs.com/png.latex?\color{white}P_i=\frac{S_i^-}{S_i^+&space;+&space;S_i^-})
 6. **Ranking:**
 Alternatives are ranked based on the score (Highest Score = Rank 1).
 
