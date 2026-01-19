@@ -13,7 +13,7 @@ A Python package to implement **TOPSIS** (Technique for Order of Preference by S
 
 ---
 
-##Installation
+## Installation
 
 You can install the package directly from PyPI using pip:
 
@@ -24,7 +24,7 @@ pip install topsis-akshatbhatnagar-102303158
 
 ---
 
-## 📊 Methodology
+## Methodology
 
 TOPSIS is based on the concept that the chosen alternative should have the shortest geometric distance from the positive ideal solution (PIS) and the longest geometric distance from the negative ideal solution (NIS).
 
@@ -51,7 +51,7 @@ Alternatives are ranked based on the score (Highest Score = Rank 1).
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 This package provides a command-line interface (CLI) to perform TOPSIS analysis on a CSV dataset.
 
@@ -73,7 +73,7 @@ topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
 
 ---
 
-## 📝 Example
+##  Example
 
 ### 1. Prepare your Data (`data.csv`)
 
