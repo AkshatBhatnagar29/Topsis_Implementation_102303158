@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Topsis Web Service</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; }
+        label { display: block; margin-top: 15px; font-weight: bold; }
+        input[type="text"], input[type="email"] { width: 100%; padding: 8px; margin-top: 5px; }
+        input[type="submit"] { margin-top: 20px; padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>TOPSIS Calculator</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Input File (CSV):</label>
+        <input type="file" name="file" accept=".csv" required>
+        
+        <label>Weights (e.g., 1,1,1,2):</label>
+        <input type="text" name="weights" required>
+        
+        <label>Impacts (e.g., +,+,-,+):</label>
+        <input type="text" name="impacts" required>
+        
+        <label>Email ID:</label>
+        <input type="email" name="email" required>
+        
+        <input type="submit" value="Calculate & Email Result">
+    </form>
+</body>
+</html>
