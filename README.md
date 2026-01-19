@@ -32,7 +32,7 @@ TOPSIS is based on the concept that the chosen alternative should have the short
 
 1. **Normalization:**
 The decision matrix is normalized to scale all criteria to a uniform dimension.
-$$ r_{ij} = \frac{x_{ij}}{\sqrt{\sum_{i=1}^{m} x_{ij}^2}} $$
+![Normalization Formula](https://latex.codecogs.com/png.latex?\large&space;r_{ij}=\frac{x_{ij}}{\sqrt{\sum_{i=1}^{m}x_{ij}^2}})
 2. **Weight Assignment:**
 The normalized matrix is multiplied by the weights assigned to each criterion.
 $$ v_{ij} = w_j \times r_{ij} $$
